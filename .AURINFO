@@ -1,0 +1,18 @@
+pkgbase = toxgui-git
+	pkgdesc = A QT GUI for Tox
+	pkgver = 259.eb3ffc3
+	pkgrel = 1
+	url = https://github.com/tux3/toxgui
+	arch = i686
+	arch = x86_64
+	license = GPL
+	makedepends = git
+	depends = qt5-multimedia
+	depends = tox-git
+	depends = libvpx
+	provides = toxgui
+	conflicts = toxgui
+	source = toxgui-git::git+https://github.com/tux3/toxgui.git
+
+pkgname = toxgui-git
+
